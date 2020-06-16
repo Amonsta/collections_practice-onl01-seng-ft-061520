@@ -34,6 +34,7 @@ end
 def find_a(letter)
   letter.find_all do |word|
     word[0] = "a"
+  end 
 end  
 
 def sum_array(array)
