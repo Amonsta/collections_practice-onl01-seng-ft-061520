@@ -24,7 +24,8 @@ def reverse_array(array)
 end  
 
 def kesha_maker(char)
-  
+  array.each do |symbol|
+    
   
 end  
 
