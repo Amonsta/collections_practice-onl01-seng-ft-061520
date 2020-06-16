@@ -25,7 +25,7 @@ end
 
 def kesha_maker(char)
   array.each do |symbol|
-    
+    symbol[2] = "$"
   
 end  
 
