@@ -26,6 +26,8 @@ end
 def kesha_maker(array)
   array.each do |symbol|
     symbol[2] = "$"
+    
+## here, symbol seperates the items in the array..the next line takes the 3rd element of each of those items and replaces it
   end 
 end  
 
