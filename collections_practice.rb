@@ -32,8 +32,8 @@ def kesha_maker(array)
 end  
 
 def find_a(letter)
-  letter.each do |word|
-    word[0] = 
+  letter.find_all do |word|
+    word[0] = "a"
 end  
 
 def sum_array(array)
