@@ -43,6 +43,7 @@ end
 
 def add_s(word)
   word.collect do |add|
-   binding.pry
+  if word == add
+    
   end
 end  
